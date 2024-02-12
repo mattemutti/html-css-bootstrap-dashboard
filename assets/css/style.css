@@ -97,6 +97,8 @@ MENU LEFT
 .menu_left {
     background-color: var(--d-secondary);
     overflow: hidden;
+    width: 100px;
+    
 
 
     & img {
@@ -127,6 +129,12 @@ MEDIA QUERIES
 
 
 @media screen and (min-width: 1200px) {
+
+
+.menu_left {
+    
+
+}
 
 
 
