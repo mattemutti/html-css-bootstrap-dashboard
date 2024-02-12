@@ -7,6 +7,21 @@ RULE FOR ALL
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    height: 100vh;
+    background-color: red;
+    overflow: hidden;
+}
+
+
+:root{
+    --d-primary: #1b72e8FF;
+    --d-secondary:  #051e34FF;
+    --d-light: #f7f7f7FF;
+    --d-lighter: white;
+    --d-dark: black;
+
+}
 
 
 
@@ -19,7 +34,20 @@ DEBUG
 }
 
 
+.debug header{
+    background-color: grey;
+}
 
+.debug #site_main{
+    height: calc(100vh - 80px);
+    background-color: red;
+}
+
+
+.debug .central_site{
+    height: 100%;
+    background-color: blue;
+}
 
 
 
@@ -27,3 +55,18 @@ DEBUG
 /**********************************************************************************
 UTILITIES
 **********************************************************************************/
+
+
+header{
+    height: 80px;
+}
+
+
+#site_main{
+    height: calc(100vh - 80px);
+}
+
+.menu_left{
+    height: 100%;
+    
+}
