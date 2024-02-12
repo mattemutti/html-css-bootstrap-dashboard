@@ -1,22 +1,21 @@
-
 /**********************************************************************************
 RULE FOR ALL
 **********************************************************************************/
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     background-color: red;
     overflow: hidden;
 }
 
 
-:root{
+:root {
     --d-primary: #1b72e8FF;
-    --d-secondary:  #051e34FF;
+    --d-secondary: #051e34FF;
     --d-light: #f7f7f7FF;
     --d-lighter: white;
     --d-dark: black;
@@ -29,34 +28,34 @@ body{
 DEBUG
 **********************************************************************************/
 
-.debug *{
+.debug * {
     border: 1px dashed black;
 }
 
 
-.debug header{
+.debug header {
     background-color: grey;
 }
 
-.debug #site_main{
+.debug #site_main {
     height: calc(100vh - 80px);
     background-color: red;
 }
 
 
-.debug .central_site{
+.debug .central_site {
     height: 100%;
     background-color: blue;
 }
 
 
-.debug .right_site{
+.debug .right_site {
     background-color: red;
-    
+
 }
 
-.debug .menu_left{
-    
+.debug .menu_left {
+
     height: 100vh;
 }
 
@@ -73,7 +72,7 @@ UTILITIES
 HEADER
 **********************************************************************************/
 
-header{ 
+header {
     height: 80px;
 }
 
@@ -86,7 +85,7 @@ MAIN
 
 
 
-#site_main{
+#site_main {
     height: calc(100vh - 80px);
 }
 
@@ -95,21 +94,40 @@ MENU LEFT
 **********************************************************************************/
 
 
-.menu_left{
+.menu_left {
     background-color: var(--d-secondary);
     overflow: hidden;
 
 
-    & img{
+    & img {
         object-fit: cover;
         object-position: center;
         margin-left: -1rem;
     }
-    
+
 }
 
 /**********************************************************************************
-INFO SITE
+SITE RIGHT
+**********************************************************************************/
+
+.menu_bg{
+    background-color: var(--d-primary);
+    padding-left: 0px;
+}
+
+
+
+
+
+/**********************************************************************************
+MEDIA QUERIES
 **********************************************************************************/
 
 
+
+@media screen and (min-width: 1200px) {
+
+
+
+}
