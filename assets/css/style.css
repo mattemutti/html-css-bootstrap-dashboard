@@ -50,6 +50,16 @@ DEBUG
 }
 
 
+.debug .right_site{
+    background-color: red;
+    
+}
+
+.debug .menu_left{
+    background-color: yellow;
+    height: 100vh;
+}
+
 
 
 /**********************************************************************************
@@ -57,7 +67,7 @@ UTILITIES
 **********************************************************************************/
 
 
-header{
+header{ 
     height: 80px;
 }
 
@@ -70,3 +80,4 @@ header{
     height: 100%;
     
 }
+
