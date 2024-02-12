@@ -19,6 +19,7 @@ body {
     --d-light: #f7f7f7FF;
     --d-lighter: white;
     --d-dark: black;
+    --d-light2: rgb(216, 207, 207);
 
 }
 
@@ -34,7 +35,7 @@ DEBUG
 
 
 .debug header {
-    background-color: grey;
+    background-color: ;
 }
 
 .debug #site_main {
@@ -72,10 +73,31 @@ UTILITIES
 HEADER
 **********************************************************************************/
 
-header {
-    height: 80px;
+
+#site_header {
+
+    background-color: var(--d-light2);
 }
 
+.nav_bar {
+    background-color: ;
+
+
+}
+
+.serach_bar {
+    background-color: var(--d-light);
+
+
+}
+
+.bg_nav {
+    background-color: var(--d-lighter);
+}
+
+.logo_mobile {
+    width: 40px;
+}
 
 /**********************************************************************************
 MAIN
@@ -98,7 +120,7 @@ MENU LEFT
     background-color: var(--d-secondary);
     overflow: hidden;
     width: 100px;
-    
+
 
 
     & img {
@@ -113,7 +135,7 @@ MENU LEFT
 SITE RIGHT
 **********************************************************************************/
 
-.menu_bg{
+.menu_bg {
     background-color: var(--d-primary);
     padding-left: 0px;
 }
@@ -131,10 +153,7 @@ MEDIA QUERIES
 @media screen and (min-width: 1200px) {
 
 
-.menu_left {
-    
-
-}
+    .menu_left {}
 
 
 
