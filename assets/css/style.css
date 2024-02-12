@@ -80,10 +80,9 @@ HEADER
 }
 
 .nav_bar {
-    background-color: ;
-
-
+    height: 55px;
 }
+
 
 .serach_bar {
     background-color: var(--d-light);
@@ -120,6 +119,9 @@ MENU LEFT
     background-color: var(--d-secondary);
     overflow: hidden;
     width: 100px;
+    min-width: 60px;
+    height: calc(100vh - 50px );
+    background-image: url(../img/sidebar-bg.png);
 
 
 
@@ -132,9 +134,7 @@ MENU LEFT
 }
 
 
-.txt_menu{
-    
-}
+.txt_menu {}
 
 /**********************************************************************************
 SITE RIGHT
@@ -158,7 +158,12 @@ MEDIA QUERIES
 @media screen and (min-width: 1200px) {
 
 
-    .menu_left {}
+    .menu_left {
+
+        width: 150px;
+        min-width: 100px;
+        max-width: 150px;
+    }
 
 
 
