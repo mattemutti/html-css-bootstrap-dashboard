@@ -182,4 +182,9 @@ MEDIA QUERIES
     .offcanvas.offcanvas-end.width_canvas {
         width: 40%;
     }
+
+
+    /* #box_main {
+        height: 100vh;
+    } */
 }
