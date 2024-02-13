@@ -146,7 +146,8 @@ MENU LEFT
 SITE RIGHT
 **********************************************************************************/
 #box_main{
-    overflow-y: scroll;
+    overflow-y: auto;
+    height: 100vh;
 }
 
 
