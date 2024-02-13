@@ -20,6 +20,7 @@ body {
     --d-lighter: white;
     --d-dark: black;
     --d-light2: rgb(216, 207, 207);
+    --d-badge: #165bbaFF;
 
 }
 
@@ -144,6 +145,11 @@ SITE RIGHT
     background-color: var(--d-primary);
     padding-left: 0px;
     width: 100%;
+}
+
+
+.badge_menu{
+    background-color: var(--d-badge);
 }
 
 
