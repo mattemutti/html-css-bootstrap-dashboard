@@ -7,6 +7,13 @@ RULE FOR ALL
 }
 
 
+body {
+    height: 100vh;
+    overflow: hidden; 
+}
+
+
+
 
 
 
@@ -74,10 +81,11 @@ HEADER
 #site_header {
 
     background-color: var(--d-light2);
+    height: 55px;
 }
 
 .nav_bar {
-    height: 55px;
+    
     width: 100vw;
 }
 
@@ -137,6 +145,10 @@ MENU LEFT
 /**********************************************************************************
 SITE RIGHT
 **********************************************************************************/
+#box_main{
+    overflow-y: scroll;
+}
+
 
 .menu_bg {
     background-color: var(--d-primary);
@@ -167,11 +179,7 @@ MEDIA QUERIES
 
 @media screen and (min-width: 1200px) {
 
-    body {
-        height: 100vh;
-        overflow: hidden; 
-    }
- 
+    
 
 
 }
