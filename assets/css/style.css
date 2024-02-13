@@ -7,6 +7,8 @@ RULE FOR ALL
 }
 
 
+
+
 body {
     height: 100vh;
     overflow: hidden;
@@ -135,9 +137,7 @@ MENU LEFT
     height: calc(100vh - 55px);
 }
 
-.txt_menu_1: hover {
-    background-color: grey;
-}
+
 
 /**********************************************************************************
 SITE RIGHT
@@ -159,7 +159,7 @@ SITE RIGHT
     background-color: var(--d-badge);
 }
 
-#width_canvas{
+.offcanvas.offcanvas-end.width_canvas {
     width: 100%;
 }
 
@@ -175,7 +175,11 @@ MEDIA QUERIES
 
 
 @media screen and (min-width: 992px) {
-    .menu_left{
+    .menu_left {
         width: 120px;
+    }
+
+    .offcanvas.offcanvas-end.width_canvas {
+        width: 40%;
     }
 }
