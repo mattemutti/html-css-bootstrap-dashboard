@@ -159,9 +159,8 @@ SITE RIGHT
     background-color: var(--d-badge);
 }
 
-.btn_hover :hover .new_user {
-    display: block;
-
+#width_canvas{
+    width: 100%;
 }
 
 .img_classi {
