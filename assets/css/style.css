@@ -45,7 +45,6 @@ DEBUG
 
 
 .debug .central_site {
-    height: 100%;
     background-color: blue;
 }
 
@@ -106,9 +105,7 @@ MAIN
 
 
 
-#site_main {
-    height: calc(100vh - 80px);
-}
+
 
 /**********************************************************************************
 MENU LEFT
@@ -118,9 +115,7 @@ MENU LEFT
 .menu_left {
     background-color: var(--d-secondary);
     overflow: hidden;
-    width: 100px;
-    min-width: 60px;
-    height: calc(100vh - 50px );
+    width: 100%;
     background-image: url(../img/sidebar-bg.png);
 
 
@@ -133,6 +128,10 @@ MENU LEFT
 
 }
 
+
+.h_menu_l {
+    height: calc(100vh - 55px);
+}
 
 .txt_menu {}
 
@@ -155,16 +154,4 @@ MEDIA QUERIES
 
 
 
-@media screen and (min-width: 1200px) {
-
-
-    .menu_left {
-
-        width: 150px;
-        min-width: 100px;
-        max-width: 150px;
-    }
-
-
-
-}
+@media screen and (min-width: 1200px) {}
