@@ -6,11 +6,8 @@ RULE FOR ALL
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    height: 100vh;
-    background-color: red;
-    overflow: hidden;
-}
+
+
 
 
 :root {
@@ -168,4 +165,13 @@ MEDIA QUERIES
 
 
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    body {
+        height: 100vh;
+        overflow: hidden; 
+    }
+ 
+
+
+}
