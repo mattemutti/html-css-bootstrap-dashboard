@@ -9,7 +9,7 @@ RULE FOR ALL
 
 body {
     height: 100vh;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 
@@ -39,9 +39,7 @@ DEBUG
 }
 
 
-.debug header {
-    
-}
+.debug header {}
 
 .debug #site_main {
     height: calc(100vh - 80px);
@@ -59,10 +57,7 @@ DEBUG
 
 }
 
-.debug .menu_left {
 
-   
-}
 
 
 
@@ -85,7 +80,7 @@ HEADER
 }
 
 .nav_bar {
-    
+
     width: 100vw;
 }
 
@@ -122,7 +117,7 @@ MENU LEFT
 .menu_left {
     background-color: var(--d-secondary);
     overflow: hidden;
-    width: 100%;
+    width: 100px;
     background-image: url(../img/sidebar-bg.png);
 
 
@@ -140,12 +135,14 @@ MENU LEFT
     height: calc(100vh - 55px);
 }
 
-.txt_menu {}
+.txt_menu_1: hover {
+    background-color: grey;
+}
 
 /**********************************************************************************
 SITE RIGHT
 **********************************************************************************/
-#box_main{
+#box_main {
     overflow-y: auto;
     height: 100vh;
 }
@@ -158,16 +155,16 @@ SITE RIGHT
 }
 
 
-.badge_menu{
+.badge_menu {
     background-color: var(--d-badge);
 }
 
-.btn_hover :hover .new_user{
+.btn_hover :hover .new_user {
     display: block;
-    
+
 }
 
-.img_classi{
+.img_classi {
     width: 35px;
 }
 
@@ -178,9 +175,4 @@ MEDIA QUERIES
 
 
 
-@media screen and (min-width: 1200px) {
-
-    
-
-
-}
+@media screen and (min-width: 1200px) {}
